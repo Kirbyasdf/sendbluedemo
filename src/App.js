@@ -25,7 +25,7 @@ const App = () => {
         console.log(json);
         setLoading(false);
         setName("");
-        setMessage(`See ya this Friday, ${json.data}! `);
+        setMessage(`See ya soon, ${json.data}! `);
       });
   };
 
