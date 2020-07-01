@@ -25,7 +25,7 @@ const App = () => {
         console.log(json);
         setLoading(false);
         setName("");
-        setMessage(`See ya soon, ${json.data}! `);
+        setMessage(`See ya soon addy is in the url :) ps. BYOB, ${json.data}! `);
       });
   };
 
@@ -43,7 +43,7 @@ const App = () => {
   return (
     <div className="bg-pink vh-100 pa1">
       <h1>hey you</h1>
-      <h2>I'm have a party</h2>
+      <h2>I'm havin a party</h2>
       <h3>This Friday</h3>
       {!message ? (
         <Fragment>
