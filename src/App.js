@@ -43,8 +43,9 @@ const App = () => {
   return (
     <div className="bg-pink vh-100 pa1">
       <h1>hey you</h1>
-      <h2>I'm havin a party</h2>
+      <h2>I'm havin a party, on my roof and in my apt</h2>
       <h3>This Friday</h3>
+      <h3>dnt forget 2 bring drank and Records! </h3>
       {!message ? (
         <Fragment>
           <h4>Let me know you're coming</h4>
